@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81ee0c50-7adc-440d-b2f2-c753a2c89c6c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1az29NC2VJkZEnB6aKWYieiXe6E" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/.vuepress/theme" />
+      <recent name="$PROJECT_DIR$/docs/.vuepress" />
+      <recent name="$PROJECT_DIR$/docs/.vuepress/theme/layouts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/.vuepress/public" />
+      <recent name="$PROJECT_DIR$/docs/.vuepress/theme/components" />
+      <recent name="$PROJECT_DIR$/docs/.vuepress/theme" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="docs:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.docs:dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81ee0c50-7adc-440d-b2f2-c753a2c89c6c" name="Default Changelist" comment="" />
+      <created>1587723949504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587723949504</updated>
+      <workItem from="1587723951304" duration="1239000" />
+      <workItem from="1587744588057" duration="1000" />
+      <workItem from="1587744601615" duration="7844000" />
+      <workItem from="1587994768466" duration="19965000" />
+      <workItem from="1588131730857" duration="16232000" />
+      <workItem from="1588496389646" duration="16228000" />
+      <workItem from="1588767453566" duration="5345000" />
+      <workItem from="1588815498033" duration="8045000" />
+      <workItem from="1588853533812" duration="1289000" />
+      <workItem from="1588859087743" duration="22674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1814" y="-253" key="#docs:dev" timestamp="1587724656307">
+      <screen x="-3008" y="-769" width="3008" height="1669" />
+    </state>
+    <state x="-1814" y="-253" key="#docs:dev/-3008.-769.3008.1669/0.23.1440.877@-3008.-769.3008.1669" timestamp="1587724656307" />
+    <state width="250" height="195" key="DatabaseViewActions_Filter" timestamp="1588062182543">
+      <screen x="-3360" y="-769" width="3360" height="1867" />
+    </state>
+    <state width="250" height="195" key="DatabaseViewActions_Filter/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588062182543" />
+    <state x="241" y="94" key="RollbackChangesDialog" timestamp="1589004878828">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="241" y="94" key="RollbackChangesDialog/-3360.-792.3360.1890/0.23.1440.877@0.23.1440.877" timestamp="1589004878828" />
+    <state x="-1984" y="-58" key="SettingsEditor" timestamp="1588131711549">
+      <screen x="-3360" y="-769" width="3360" height="1867" />
+    </state>
+    <state x="-1984" y="-58" key="SettingsEditor/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588131711549" />
+    <state x="643" y="377" width="748" height="518" key="find.popup" timestamp="1588952388541">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="-1856" y="-194" width="747" height="518" key="find.popup/-3008.-769.3008.1669/0.23.1440.877@-3008.-769.3008.1669" timestamp="1587724017182" />
+    <state x="-2074" y="-125" width="1406" height="942" key="find.popup/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588846672528" />
+    <state x="551" y="326" width="871" height="518" key="find.popup/-3360.-792.3360.1890/0.23.1440.877@0.23.1440.877" timestamp="1588937907454" />
+    <state x="643" y="377" width="748" height="518" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1588952388541" />
+    <state x="-1728" y="173" width="558" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1588062344470">
+      <screen x="-3360" y="-769" width="3360" height="1867" />
+    </state>
+    <state x="-1728" y="173" width="558" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588062344470" />
+    <state x="925" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1588501903664">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="-1510" y="-471" width="1340" height="1229" key="search.everywhere.popup/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588129071888" />
+    <state x="925" y="187" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1588501903664" />
+    <state x="767" y="513" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1589004887184">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="-1571" y="274" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588832485701" />
+    <state x="767" y="513" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/-3360.-792.3360.1890/0.23.1440.877@0.23.1440.877" timestamp="1589004887184" />
+  </component>
+</project>
