@@ -4,6 +4,7 @@
   <BlogTags class="theme-default-content" v-if="$page.path === '/tags/'"/>
   <BlogPost v-if="$page.path !== '/post/' && $page.path.includes('/post/')"/>
   <BlogPostHome v-else-if="$page.path === '/post/'"/>
+  <BlogArchives v-else-if="$page.path === '/archives/'"/>
 <!--  <div class="theme-default-content" v-if="$page.path.includes('/post/')">-->
 <!--    <h1>{{ $page.title }}</h1>-->
 <!--    <span>yasinchan</span>-->
@@ -23,9 +24,10 @@ import PageNav from '@theme/components/PageNav.vue'
 import BlogTags from '@theme/components/BlogTags.vue'
 import BlogPost from '@theme/components/BlogPost.vue'
 import BlogPostHome from '@theme/components/BlogPostHome.vue'
+import BlogArchives from '@theme/components/BlogArchives.vue'
 
 export default {
-  components: {PageEdit, PageNav, BlogTags, BlogPost, BlogPostHome},
+  components: {PageEdit, PageNav, BlogTags, BlogPost, BlogPostHome, BlogArchives},
   props: ['sidebarItems']
 }
 </script>

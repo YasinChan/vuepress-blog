@@ -6,6 +6,12 @@ module.exports = {
     ['script', { src: '/iconfont.js' }]
   ],
   cache: false,
+  markdown: {
+    extendMarkdown: md => {
+      // 使用更多的 markdown-it 插件!
+      md.use(require('markdown-it-task-lists'))
+    }
+  },
   themeConfig: {
     // sidebar: true,
     // sidebar: {

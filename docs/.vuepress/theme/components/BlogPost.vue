@@ -1,6 +1,6 @@
 <template>
-<div class="blog-post theme-default-content">
-  <div class="">
+<div class="blog-post">
+  <div class="theme-default-content blog-post__theme-title">
     <h1>{{ $page.title || $page.frontmatter.title }}</h1>
     <div class="blog-post__sub-title">
       <template v-if="$page.frontmatter.updated">
@@ -19,7 +19,7 @@
 
     </div>
   </div>
-  <Content class="blog-post__theme-content"/>
+  <Content class="theme-default-content blog-post__theme-content"/>
 </div>
 </template>
 <script>
@@ -41,6 +41,9 @@ export default {
 </script>
 
 <style lang="stylus">
+.blog-post
+  .blog-post__theme-title
+    margin-bottom -80px
 .blog-post__sub-title
   display flex
   align-items center

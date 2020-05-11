@@ -9,6 +9,7 @@
     "vuepress-plugin-smooth-scroll": "^0.0.9"
   },
   "dependencies": {
-    "dayjs": "^1.8.26"
+    "dayjs": "^1.8.26",
+    "markdown-it-task-lists": "^2.1.1"
   }
 }

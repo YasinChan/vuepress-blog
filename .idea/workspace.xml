@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81ee0c50-7adc-440d-b2f2-c753a2c89c6c" name="Default Changelist" comment="" />
+    <list default="true" id="81ee0c50-7adc-440d-b2f2-c753a2c89c6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogPost.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogPost.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogPostHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogPostHome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/Page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/components/Page.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/theme/styles/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/blog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/archives/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1az29NC2VJkZEnB6aKWYieiXe6E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -42,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="tv.twelvetone.intellij.plugins.intellivue.preferences.IntellivueConfigurable" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -106,6 +120,9 @@
       <workItem from="1588815498033" duration="8045000" />
       <workItem from="1588853533812" duration="1289000" />
       <workItem from="1588859087743" duration="22674000" />
+      <workItem from="1589004667775" duration="2068000" />
+      <workItem from="1589011653607" duration="14671000" />
+      <workItem from="1589101856200" duration="6346000" />
     </task>
     <servers />
   </component>
@@ -125,25 +142,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="241" y="94" key="RollbackChangesDialog/-3360.-792.3360.1890/0.23.1440.877@0.23.1440.877" timestamp="1589004878828" />
-    <state x="-1984" y="-58" key="SettingsEditor" timestamp="1588131711549">
-      <screen x="-3360" y="-769" width="3360" height="1867" />
+    <state x="443" y="178" key="SettingsEditor" timestamp="1589030223530">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-1984" y="-58" key="SettingsEditor/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588131711549" />
-    <state x="643" y="377" width="748" height="518" key="find.popup" timestamp="1588952388541">
+    <state x="443" y="178" key="SettingsEditor/-3360.-792.3360.1890/0.0.1440.900@0.0.1440.900" timestamp="1589030223530" />
+    <state x="643" y="377" width="748" height="518" key="find.popup" timestamp="1589101692478">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="-1856" y="-194" width="747" height="518" key="find.popup/-3008.-769.3008.1669/0.23.1440.877@-3008.-769.3008.1669" timestamp="1587724017182" />
     <state x="-2074" y="-125" width="1406" height="942" key="find.popup/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588846672528" />
-    <state x="551" y="326" width="871" height="518" key="find.popup/-3360.-792.3360.1890/0.23.1440.877@0.23.1440.877" timestamp="1588937907454" />
-    <state x="643" y="377" width="748" height="518" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1588952388541" />
+    <state x="551" y="326" width="871" height="518" key="find.popup/-3360.-792.3360.1890/0.23.1440.877@0.23.1440.877" timestamp="1589014510740" />
+    <state x="643" y="377" width="748" height="518" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1589101692478" />
     <state x="-1728" y="173" width="558" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1588062344470">
       <screen x="-3360" y="-769" width="3360" height="1867" />
     </state>
     <state x="-1728" y="173" width="558" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588062344470" />
-    <state x="925" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1588501903664">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="-1510" y="-471" width="1340" height="1229" key="search.everywhere.popup" timestamp="1589005925961">
+      <screen x="-3360" y="-769" width="3360" height="1867" />
     </state>
-    <state x="-1510" y="-471" width="1340" height="1229" key="search.everywhere.popup/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588129071888" />
+    <state x="-1510" y="-471" width="1340" height="1229" key="search.everywhere.popup/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1589005925961" />
     <state x="925" y="187" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1588501903664" />
     <state x="767" y="513" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1589004887184">
       <screen x="0" y="23" width="1440" height="877" />

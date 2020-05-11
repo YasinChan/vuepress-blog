@@ -1,20 +1,26 @@
 <template>
-<div class="theme-default-content">
-  <h1>博客</h1>
-  <blog-post-list v-for="page in postPages" :info="page"></blog-post-list>
+<div class="blog-archives theme-default-content">
+  <div v-for="(value, key) in archives">
+    <h4>{{ key }}</h4>
+    <ul>
+      <li v-for="v in value">
+        <span>{{ v.frontmatter && v.frontmatter.created }}</span>
+        <router-link :to="v.path">
+          <span>{{ v.title }}</span>
+        </router-link>
+      </li>
+    </ul>
+  </div>
 </div>
 </template>
 <script>
-import BlogPostList from '@theme/components/BlogPostList.vue'
 
 export default {
   data () {
     return {
-      postPages: []
+      postPages: [],
+      archives: {}
     }
-  },
-  components: {
-    BlogPostList
   },
   mounted () {
     const { pages } = this.$site
@@ -22,11 +28,19 @@ export default {
     this.postPages = pages.filter(item => item.regularPath.includes('/post/') && item.regularPath !== '/post/')
     // sort by timezzz
     this.postPages = this.postPages.sort((a, b) => {
-      let time1 = a.frontmatter.updated || a.frontmatter.created || '2000-1-1'
-      let time2 = b.frontmatter.updated || b.frontmatter.created || '2000-1-1'
+      let time1 = a.frontmatter.created || '2000-1-1'
+      let time2 = b.frontmatter.created || '2000-1-1'
       let date1 = this.$dayjs(time1)
       let date2 = this.$dayjs(time2)
       return date2.diff(date1)
+    })
+    this.postPages.forEach(item => {
+      let created = item.frontmatter.created || '2000-1-1'
+      let year = this.$dayjs(created).year()
+      let archivesList = JSON.parse(JSON.stringify(this.archives))
+      archivesList[year] =  archivesList[year] || []
+      archivesList[year].push(item)
+      this.$set(this.archives, [year], archivesList[year])
     })
   }
 }
