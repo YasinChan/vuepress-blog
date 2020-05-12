@@ -1,0 +1,3 @@
+[submodule "vuepress-theme-inherit"]
+	path = vuepress-theme-inherit
+	url = git@github.com:YasinChan/vuepress-theme-inherit.git
