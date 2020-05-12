@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ee0c50-7adc-440d-b2f2-c753a2c89c6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vuepress-theme-inherit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yasinchan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yasinchan.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogArchives.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogPost.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogPostHome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogPostList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogTags.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/CButton.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/CIcon.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/CTag.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/Page.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/enhanceApp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layouts/Layout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/index.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/blog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/archives/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/archives/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/post/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/post/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tags/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tags/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuepress-theme-inherit/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vuepress-theme-inherit/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +137,7 @@
       <workItem from="1589004667775" duration="2068000" />
       <workItem from="1589011653607" duration="14671000" />
       <workItem from="1589101856200" duration="9735000" />
-      <workItem from="1589211201354" duration="2634000" />
+      <workItem from="1589211201354" duration="5458000" />
     </task>
     <servers />
   </component>

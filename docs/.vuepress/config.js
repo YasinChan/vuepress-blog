@@ -12,6 +12,7 @@ module.exports = {
       md.use(require('markdown-it-task-lists'))
     }
   },
+  theme: require.resolve('../../vuepress-theme-inherit'),
   themeConfig: {
     // sidebar: true,
     // sidebar: {
