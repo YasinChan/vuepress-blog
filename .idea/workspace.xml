@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ee0c50-7adc-440d-b2f2-c753a2c89c6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/yasinchan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/yasinchan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogArchives.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogPost.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogPostHome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogPostList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/BlogTags.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/CButton.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/CIcon.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/CTag.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/components/Page.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/enhanceApp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/layouts/Layout.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/theme/styles/index.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/blog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/archives/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/archives/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/post/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/post/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tags/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tags/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuepress-theme-inherit/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vuepress-theme-inherit/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/post/post-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/post/post-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/post/post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/post/callback-hell.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/post/post-4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/post/post-5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuepress-theme-inherit" beforeDir="false" afterPath="$PROJECT_DIR$/vuepress-theme-inherit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vuepress-theme-inherit/components/BlogPostList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuepress-theme-inherit/components/BlogPostList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +55,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="tv.twelvetone.intellij.plugins.intellivue.preferences.IntellivueConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -137,7 +122,9 @@
       <workItem from="1589004667775" duration="2068000" />
       <workItem from="1589011653607" duration="14671000" />
       <workItem from="1589101856200" duration="9735000" />
-      <workItem from="1589211201354" duration="5458000" />
+      <workItem from="1589211201354" duration="7779000" />
+      <workItem from="1590033589458" duration="238000" />
+      <workItem from="1590033846531" duration="2007000" />
     </task>
     <servers />
   </component>
@@ -157,17 +144,19 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="241" y="94" key="RollbackChangesDialog/-3360.-792.3360.1890/0.23.1440.877@0.23.1440.877" timestamp="1589004878828" />
-    <state x="443" y="178" key="SettingsEditor" timestamp="1589030223530">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-2674" y="-602" key="SettingsEditor" timestamp="1590033827048">
+      <screen x="-3360" y="-967" width="3360" height="1867" />
     </state>
     <state x="-1984" y="-58" key="SettingsEditor/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588131711549" />
     <state x="443" y="178" key="SettingsEditor/-3360.-792.3360.1890/0.0.1440.900@0.0.1440.900" timestamp="1589030223530" />
-    <state x="643" y="377" width="748" height="518" key="find.popup" timestamp="1589101692478">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="-2674" y="-602" key="SettingsEditor/-3360.-967.3360.1867/0.23.1440.877@-3360.-967.3360.1867" timestamp="1590033827048" />
+    <state x="-2074" y="-323" width="1496" height="942" key="find.popup" timestamp="1590036130576">
+      <screen x="-3360" y="-967" width="3360" height="1867" />
     </state>
     <state x="-1856" y="-194" width="747" height="518" key="find.popup/-3008.-769.3008.1669/0.23.1440.877@-3008.-769.3008.1669" timestamp="1587724017182" />
     <state x="-2074" y="-125" width="1406" height="942" key="find.popup/-3360.-769.3360.1867/0.23.1440.877@-3360.-769.3360.1867" timestamp="1588846672528" />
     <state x="551" y="326" width="871" height="518" key="find.popup/-3360.-792.3360.1890/0.23.1440.877@0.23.1440.877" timestamp="1589014510740" />
+    <state x="-2074" y="-323" width="1496" height="942" key="find.popup/-3360.-967.3360.1867/0.23.1440.877@-3360.-967.3360.1867" timestamp="1590036130576" />
     <state x="643" y="377" width="748" height="518" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1589101692478" />
     <state x="-1728" y="173" width="558" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1588062344470">
       <screen x="-3360" y="-769" width="3360" height="1867" />
