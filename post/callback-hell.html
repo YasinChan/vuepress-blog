@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>callback hell | YasinChan</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="icon" href="/logo.png">
+    <script src="/iconfont.js"></script>
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.e5695b76.css" as="style"><link rel="preload" href="/assets/js/app.18595601.js" as="script"><link rel="preload" href="/assets/js/2.83b50213.js" as="script"><link rel="preload" href="/assets/js/11.3fb46924.js" as="script"><link rel="prefetch" href="/assets/js/10.1f8f7ad5.js"><link rel="prefetch" href="/assets/js/12.19807d30.js"><link rel="prefetch" href="/assets/js/13.dd41bb85.js"><link rel="prefetch" href="/assets/js/14.63b7e064.js"><link rel="prefetch" href="/assets/js/15.1bb8fe2e.js"><link rel="prefetch" href="/assets/js/3.5d5a722a.js"><link rel="prefetch" href="/assets/js/4.eb58036f.js"><link rel="prefetch" href="/assets/js/5.900f3832.js"><link rel="prefetch" href="/assets/js/6.2a9546fb.js"><link rel="prefetch" href="/assets/js/7.a01cd48e.js"><link rel="prefetch" href="/assets/js/8.1c2ddeef.js"><link rel="prefetch" href="/assets/js/9.55bafdf3.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e5695b76.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">YasinChan</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/post/" class="nav-link router-link-active">
+  博客
+</a></div><div class="nav-item"><a href="/tags/" class="nav-link">
+  标签
+</a></div><div class="nav-item"><a href="/archives/" class="nav-link">
+  归档
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于" class="dropdown-title"><span class="title">关于</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/blog.html" class="nav-link">
+  此博客
+</a></li><li class="dropdown-item"><!----> <a href="/about/me.html" class="nav-link">
+  我
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/yasinchan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/post/" class="nav-link router-link-active">
+  博客
+</a></div><div class="nav-item"><a href="/tags/" class="nav-link">
+  标签
+</a></div><div class="nav-item"><a href="/archives/" class="nav-link">
+  归档
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于" class="dropdown-title"><span class="title">关于</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/blog.html" class="nav-link">
+  此博客
+</a></li><li class="dropdown-item"><!----> <a href="/about/me.html" class="nav-link">
+  我
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/yasinchan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <!----> </aside> <main class="page"> <!----> <div class="blog-post"><div class="theme-default-content blog-post__theme-title"><h1>callback hell</h1> <div class="blog-post__sub-title"><!----> <svg class="icon-create blog__post-icon"><use xlink:href="#icon-create"></use></svg> <span class="blog__post-span">2018-3-1</span> <div class="blog__post-tags"><svg class="icon-tag blog__post-icon"><use xlink:href="#icon-tag"></use></svg> <a href="/tags/?tag=%E5%89%8D%E7%AB%AF" class="blog__post-tag">前端</a><a href="/tags/?tag=%E6%8A%80%E6%9C%AF" class="blog__post-tag">技术</a></div></div></div> <div class="theme-default-content blog-post__theme-content content__default"><blockquote><p>JavaScript 是单线程的语言，处理异步的事件比如ajax 请求，我们会使用callback的方式来处理。可是当我们需要处理复杂的异步过程时，最常见的方式就是在回调事件中层层嵌套，可是这样做的弊端也很明显，就是代码不直观，冗余，当我们在后期维护的时候，工程量也会很大。</p></blockquote> <blockquote><p>于是，在ES6 中，增加了几种新的方法，来使我们能更加优雅的处理复杂异步事件。</p></blockquote> <ol><li><p>Promise<br>
+这也是我们在解决这类问题中用的最多的方式了，不做赘述，详情参考 http://es6.ruanyifeng.com/#docs/promise 。</p></li> <li><p>Generator 函数<br>
+这个可能使用率比较小，但是个人认为是个更加直观的解决方式。生成器函数一般而言可以配合 yield 来用，使用方法：</p></li></ol> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    <span class="token keyword">function</span><span class="token operator">*</span> <span class="token function">countAppleSales</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">var</span> result1 <span class="token operator">=</span> <span class="token keyword">yield</span> $<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'data1.json'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">var</span> result2 <span class="token operator">=</span> <span class="token keyword">yield</span> $<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'data2.json'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token punctuation">}</span>
+</code></pre></div><p>使用 * 来区分他跟一般的函数的区别，yield 是一个用来暂停生成器函数的关键字，使用 .next() 来继续函数详情可参见 https://www.w3ctech.com/topic/1917</p> <ol start="3"><li>acync 函数<br> <a href="http://es6.ruanyifeng.com/#docs/async" target="_blank" rel="noopener noreferrer">http://es6.ruanyifeng.com/#docs/async<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ol> <p><a href="https://www.w3ctech.com/topic/1917" target="_blank" rel="noopener noreferrer">https://www.w3ctech.com/topic/1917<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.18595601.js" defer></script><script src="/assets/js/2.83b50213.js" defer></script><script src="/assets/js/11.3fb46924.js" defer></script>
+  </body>
+</html>
