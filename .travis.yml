@@ -4,6 +4,7 @@ node_js:
   - 8
 
 install:
+  - git submodule foreach git pull origin master
   - yarn
 
 script:

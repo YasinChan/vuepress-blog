@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ee0c50-7adc-440d-b2f2-c753a2c89c6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/post/about-this-vuepress.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/post/about-this-vuepress.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +118,7 @@
       <workItem from="1589211201354" duration="7779000" />
       <workItem from="1590033589458" duration="238000" />
       <workItem from="1590033846531" duration="2268000" />
-      <workItem from="1590113588478" duration="5689000" />
+      <workItem from="1590113588478" duration="5877000" />
     </task>
     <servers />
   </component>
