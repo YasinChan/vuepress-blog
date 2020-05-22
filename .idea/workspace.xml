@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81ee0c50-7adc-440d-b2f2-c753a2c89c6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/post/post-1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/post/post-2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/post/post-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/post/callback-hell.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/post/post-4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/post/post-5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/post/regexp-test-exec.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/post/regexp-test-exec.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vuepress-theme-inherit" beforeDir="false" afterPath="$PROJECT_DIR$/vuepress-theme-inherit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vuepress-theme-inherit/components/BlogPostList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vuepress-theme-inherit/components/BlogPostList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +118,8 @@
       <workItem from="1589101856200" duration="9735000" />
       <workItem from="1589211201354" duration="7779000" />
       <workItem from="1590033589458" duration="238000" />
-      <workItem from="1590033846531" duration="2007000" />
+      <workItem from="1590033846531" duration="2268000" />
+      <workItem from="1590113588478" duration="87000" />
     </task>
     <servers />
   </component>
