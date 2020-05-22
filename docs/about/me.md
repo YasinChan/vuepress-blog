@@ -13,8 +13,10 @@
 vue 验证框，一般用于登录时填写短信验证码的方框，也可以自定义样式。[demo](https://git.yasinchan.com/vue-verification-input/dist/)
 - [vue-simple-lazyload](https://github.com/YasinChan/vue-simple-lazyload)  
 一个简易的 vue 图片懒加载，支持加载动效。[demo](https://git.yasinchan.com/vue-simple-lazyload/dist/)
+- [vuepress-theme-inherit](https://github.com/YasinChan/vuepress-theme-inherit)  
+继承于 `@vuepress/theme-default的vuepress` 博客主题，支持归档和标签功能，可自动将博客按时间进行排序。也正是本博客使用的主题。
 
-## 友链
+## 我的朋友
 - <https://solarhell.com/>
 
 ## 联系我
