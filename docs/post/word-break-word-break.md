@@ -18,7 +18,7 @@ MDN 和 W3C 标准中都将 `break-word` 归为废弃的值，只是为了兼容
     注：word-wrap 属性原本属于微软的一个私有属性，在 CSS3 现在的文本规范草案中已经被重名为 overflow-wrap 。 word-wrap 现在被当作 overflow-wrap 的 “别名”。 稳定的谷歌 Chrome 和 Opera 浏览器版本支持这种新语法。
     :::
     `overflow-wrap`相比于`word-wrap`，多了 `anywhere` 的值，不过正如上面所讲的，这个值的兼容性比较差，所以暂不建议使用。 
-    ![图-2.1](https://img2.tapimg.com/bbcode/images/0acce773267861595f8ffb057ad71d68.png)   
+    ![图-2.1](https://qiniu.yasinchan.com/image/0acce773267861595f8ffb057ad71d68.png)   
 2. `word-wrap: break-word;` 在 Chrome 中使用时的中划线如何去除：
     ```css
     overflow-wrap: break-word;

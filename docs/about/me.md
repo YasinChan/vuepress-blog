@@ -6,6 +6,10 @@
 - `HTML`、`CSS`、`JavaScript`
 - 主力 js 框架`vue`
 
+## 好玩
+- [Quick Meet](https://github.com/YasinChan/quick-meet)  
+一个可以快速找到聚会地点的网站！
+
 ## 轮子
 - [wechat-scroll-linkage](https://github.com/YasinChan/wechat-scroll-linkage)  
 微信小程序列表左右联动效果

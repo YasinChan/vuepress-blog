@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Yasinchan 
-tagline: 的博客
+tagline: 主页
 actionText: 博客列表 →
 actionLink: /post/
 features:
@@ -11,5 +11,5 @@ features:
   details: 以前端技术为主的生活记录。
 - title: 价值
   details: 一时开源一时爽，一直开源一直爽。
-footer: Powered by vuepress-theme-inherit
+footer: 苏ICP备18046434号
 ---

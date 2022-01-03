@@ -2,7 +2,7 @@ module.exports = {
   title: 'YasinChan',
   plugins: ['vuepress-plugin-smooth-scroll', '@vuepress/back-to-top'],
   head: [
-    ['link', {rel: 'icon', href: '/logo.png'}],
+    ['link', { rel: 'icon', href: '/logo.png' }],
     ['script', { src: '/iconfont.js' }]
   ],
   cache: false,
@@ -28,10 +28,10 @@ module.exports = {
     // },
     // lastUpdated: 'Last Updated', // string | boolean
     nav: [
-      {text: '首页', link: '/'},
-      {text: '博客', link: '/post/'},
-      {text: '标签', link: '/tags/'},
-      {text: '归档', link: '/archives/'},
+      { text: '首页', link: '/' },
+      { text: '博客', link: '/post/' },
+      { text: '标签', link: '/tags/' },
+      { text: '归档', link: '/archives/' },
       {
         text: '关于',
         items: [
@@ -45,7 +45,16 @@ module.exports = {
           }
         ]
       },
-      {text: 'Github', link: 'https://github.com/yasinchan'},
+      {
+        text: '好玩',
+        items: [
+          {
+            text: 'Quick Meet',
+            link: 'https://yasinchan.com/quick-meet/'
+          },
+        ]
+      },
+      { text: 'Github', link: 'https://github.com/yasinchan' },
     ]
   }
 }
