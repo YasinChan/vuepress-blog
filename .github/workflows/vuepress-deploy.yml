@@ -12,4 +12,3 @@ jobs:
           TARGET_BRANCH: html
           BUILD_SCRIPT: yarn && yarn build
           BUILD_DIR: docs/.vuepress/dist
-          CNAME: https://www.xxx.com
