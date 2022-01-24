@@ -1,6 +1,6 @@
 ---
 title: slate 系列
-created: 2021-11-11
+created: 2021/11/11
 tags: 
   - slate
   - 编辑器
