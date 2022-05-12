@@ -1,11 +1,14 @@
 ---
 title: slate 系列
+description: 本文将根据 slate 文档结合实例整理讲述 slate 的部分细节。
 created: 2021/11/11
 tags: 
   - slate
   - 编辑器
 ---
-> 本文将根据 [slate 文档](https://docs.slatejs.org/) 结合实例整理讲述 [slate](https://github.com/ianstormtaylor/slate) 的部分细节。
+::: tip
+本文将根据 [slate 文档](https://docs.slatejs.org/) 结合实例整理讲述 [slate](https://github.com/ianstormtaylor/slate) 的部分细节。
+:::
 
 ## 简述
 1. slate 是一个完全可定制的构建富文本编辑器的框架，本质是一个构建于 React 之上的 div contenteditable。
