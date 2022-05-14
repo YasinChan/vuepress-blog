@@ -1,18 +1,18 @@
 module.exports = {
-  title: 'YasinChan',
-  plugins: ['vuepress-plugin-smooth-scroll', '@vuepress/back-to-top'],
+  title: "YasinChan",
+  plugins: ["vuepress-plugin-smooth-scroll", "@vuepress/back-to-top"],
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }],
-    ['script', { src: '/iconfont.js' }]
+    ["link", { rel: "icon", href: "/logo.png" }],
+    ["script", { src: "/iconfont.js" }],
   ],
   cache: false,
   markdown: {
-    extendMarkdown: md => {
+    extendMarkdown: (md) => {
       // 使用更多的 markdown-it 插件!
-      md.use(require('markdown-it-task-lists'))
-    }
+      md.use(require("markdown-it-task-lists"));
+    },
   },
-  theme: 'vuepress-theme-inherit',
+  theme: "vuepress-theme-inherit",
   themeConfig: {
     // sidebar: true,
     // sidebar: {
@@ -28,33 +28,35 @@ module.exports = {
     // },
     // lastUpdated: 'Last Updated', // string | boolean
     nav: [
-      { text: '首页', link: '/' },
-      { text: '博客', link: '/post/' },
-      { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
+      { text: "首页", link: "/" },
+      { text: "博客", link: "/post/" },
+      { text: "标签", link: "/tags/" },
+      { text: "归档", link: "/archives/" },
       {
-        text: '关于',
+        text: "关于",
         items: [
           {
-            text: '此博客',
-            link: '/about/blog.md'
+            text: "此博客",
+            link: "/about/blog.md",
           },
           {
-            text: '我',
-            link: '/about/me.md'
-          }
-        ]
+            text: "我",
+            link: "/about/me.md",
+          },
+        ],
       },
       {
-        text: '好玩',
+        text: "好玩",
         items: [
           {
-            text: 'Quick Meet',
-            link: 'https://yasinchan.com/quick-meet/'
+            text: "Quick Meet",
+            link: "https://yasinchan.com/quick-meet/",
           },
-        ]
+        ],
       },
-      { text: 'Github', link: 'https://github.com/yasinchan' },
-    ]
-  }
-}
+      { text: "Github", link: "https://github.com/yasinchan" },
+    ],
+    footerRightHtml:
+      '© 2022 <a href="https://github.com/yasinchan">YasinChan</a> · <a href="https://beian.miit.gov.cn">苏ICP备18046434号</a>',
+  },
+};

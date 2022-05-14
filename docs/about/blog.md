@@ -8,4 +8,4 @@
 - [x] 标签分类
 - [x] 归档分类
 - [ ] 优化 SEO
-- [ ] footer
+- [x] footer
