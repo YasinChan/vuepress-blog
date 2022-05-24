@@ -20,8 +20,9 @@ vue 验证框，一般用于登录时填写短信验证码的方框，也可以�
 - [vuepress-theme-inherit](https://github.com/YasinChan/vuepress-theme-inherit)  
 继承于 `@vuepress/theme-default的vuepress` 博客主题，支持归档和标签功能，可自动将博客按时间进行排序。也正是本博客使用的主题。
 
-## 我的朋友
+## 友链
 - <https://solarhell.com/>
+- [拉云低代码工具](https://kalacloud.com/)
 
 ## 联系我
 - <yasinchan2016@gmail.com>
