@@ -1,5 +1,6 @@
 module.exports = {
-  title: "YasinChan",
+  title: "YasinChan 的博客",
+  description: "Yasinchan 记录前端生活",
   plugins: ["vuepress-plugin-smooth-scroll", "@vuepress/back-to-top"],
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
