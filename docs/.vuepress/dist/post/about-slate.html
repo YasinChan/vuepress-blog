@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>slate 系列 | YasinChan 的博客</title>
+    <meta name="generator" content="VuePress 1.9.5">
+    <link rel="icon" href="/logo.png">
+    <script src="/iconfont.js"></script>
+    <meta name="description" content="本文将根据 slate 文档结合实例整理讲述 slate 的部分细节。">
+    
+    <link rel="preload" href="/assets/css/0.styles.e78acdd0.css" as="style"><link rel="preload" href="/assets/js/app.558b3da6.js" as="script"><link rel="preload" href="/assets/js/3.aaf40548.js" as="script"><link rel="preload" href="/assets/js/2.8639da39.js" as="script"><link rel="preload" href="/assets/js/13.2d101e06.js" as="script"><link rel="prefetch" href="/assets/js/10.40a720ee.js"><link rel="prefetch" href="/assets/js/11.e89323a7.js"><link rel="prefetch" href="/assets/js/12.9f21278d.js"><link rel="prefetch" href="/assets/js/14.616998b9.js"><link rel="prefetch" href="/assets/js/15.ce9fca11.js"><link rel="prefetch" href="/assets/js/16.0604c0f1.js"><link rel="prefetch" href="/assets/js/17.5e348cc3.js"><link rel="prefetch" href="/assets/js/18.42f0feb0.js"><link rel="prefetch" href="/assets/js/19.2593b0bd.js"><link rel="prefetch" href="/assets/js/20.62f7ab8e.js"><link rel="prefetch" href="/assets/js/21.eb0b52e9.js"><link rel="prefetch" href="/assets/js/22.6fba6560.js"><link rel="prefetch" href="/assets/js/23.c4fd6cc4.js"><link rel="prefetch" href="/assets/js/4.5e221c32.js"><link rel="prefetch" href="/assets/js/5.85dd2b6a.js"><link rel="prefetch" href="/assets/js/6.df516d49.js"><link rel="prefetch" href="/assets/js/7.1ea79023.js"><link rel="prefetch" href="/assets/js/8.c716cbb7.js"><link rel="prefetch" href="/assets/js/9.c5be3c64.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e78acdd0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">YasinChan 的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/post/" class="nav-link router-link-active">
+  博客
+</a></div><div class="nav-item"><a href="/tags/" class="nav-link">
+  标签
+</a></div><div class="nav-item"><a href="/archives/" class="nav-link">
+  归档
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于" class="dropdown-title"><span class="title">关于</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于" class="mobile-dropdown-title"><span class="title">关于</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/blog.html" class="nav-link">
+  此博客
+</a></li><li class="dropdown-item"><!----> <a href="/about/me.html" class="nav-link">
+  我
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="好玩" class="dropdown-title"><span class="title">好玩</span> <span class="arrow down"></span></button> <button type="button" aria-label="好玩" class="mobile-dropdown-title"><span class="title">好玩</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://yasinchan.com/quick-meet/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Quick Meet
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="https://github.com/yasinchan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/post/" class="nav-link router-link-active">
+  博客
+</a></div><div class="nav-item"><a href="/tags/" class="nav-link">
+  标签
+</a></div><div class="nav-item"><a href="/archives/" class="nav-link">
+  归档
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于" class="dropdown-title"><span class="title">关于</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于" class="mobile-dropdown-title"><span class="title">关于</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/blog.html" class="nav-link">
+  此博客
+</a></li><li class="dropdown-item"><!----> <a href="/about/me.html" class="nav-link">
+  我
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="好玩" class="dropdown-title"><span class="title">好玩</span> <span class="arrow down"></span></button> <button type="button" aria-label="好玩" class="mobile-dropdown-title"><span class="title">好玩</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://yasinchan.com/quick-meet/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Quick Meet
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="https://github.com/yasinchan" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <!----> </aside> <main class="page"> <!----> <div class="blog-post"><div class="theme-default-content blog-post__theme-title"><h1>slate 系列</h1> <div class="blog-post__sub-title"><!----> <svg class="icon-create blog__post-icon"><use xlink:href="#icon-create"></use></svg> <span class="blog__post-span">2021/11/11</span> <div class="blog__post-tags"><svg class="icon-tag blog__post-icon"><use xlink:href="#icon-tag"></use></svg> <a href="/tags/?tag=slate" class="blog__post-tag">slate</a><a href="/tags/?tag=%E7%BC%96%E8%BE%91%E5%99%A8" class="blog__post-tag">编辑器</a></div></div></div> <div class="theme-default-content blog-post__theme-content content__default"><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>本文将根据 <a href="https://docs.slatejs.org/" target="_blank" rel="noopener noreferrer">slate 文档<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 结合实例整理讲述 <a href="https://github.com/ianstormtaylor/slate" target="_blank" rel="noopener noreferrer">slate<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 的部分细节。</p></div> <h2 id="简述"><a href="#简述" class="header-anchor">#</a> 简述</h2> <ol><li>slate 是一个完全可定制的构建富文本编辑器的框架，本质是一个构建于 React 之上的 div contenteditable。</li> <li>文档中提到其逻辑都是通过各个插件实现的，可以不用受到“核心”不“核心”的影响。</li> <li>slate 的主要插件只有三个，分别是 slate-react、slate-history、slate-hyperscript。</li> <li>slate 本身提供了逻辑处理；</li> <li>slate-react 是做视图层逻辑（官方。slate 的视图层组件还有包括 vue 和 angular 在内的其他衍生品，这里基于 react 的组件是由官方维护）；</li> <li>slate-history 记录状态，配合撤销反撤销操作；</li> <li>slate-hyperscript 用于提供 jsx，可以在比如粘贴一段 HTML 做转换处理时使用。</li></ol> <h2 id="细节"><a href="#细节" class="header-anchor">#</a> 细节</h2> <p>slate 逻辑本质是基于对一段数组对象数据的处理</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;paragraph&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;children&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;测试&quot;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;加粗&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;bold&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;斜体&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;italic&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;下划线&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;underline&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot; &quot;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span> 
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;children&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                    <span class="token punctuation">{</span>
+                        <span class="token property">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;链接&quot;</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;link&quot;</span><span class="token punctuation">,</span>
+                <span class="token property">&quot;info&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token property">&quot;url&quot;</span><span class="token operator">:</span> <span class="token string">&quot;https://taptap.com&quot;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+        <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token string">&quot;sWIx&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;type&quot;</span><span class="token operator">:</span> <span class="token string">&quot;image&quot;</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;info&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">&quot;url&quot;</span><span class="token operator">:</span> <span class="token string">&quot;https://img2.tapimg.com/moment/etag/FkNk2byCBYVIw0xr2tA43mSpoxDs.png&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">&quot;children&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token property">&quot;text&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+</code></pre></div><p>如这段数组对应的是下图两行展示
+<img src="https://qiniu.yasinchan.com/image/image2021-11-17_13-47-43.png" alt="图一"></p> <p>这段数组中的两个对象，对应了视图层的两行。对于 slate 来说，每行既是一个对象，我们的增删改查都是通过对这段数组的操作。</p> <p>slate 对于操作（<strong>Operations</strong>），分为了如下 9 种</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">type</span> <span class="token class-name">BaseInsertNodeOperation</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'insert_node'</span>
+  path<span class="token operator">:</span> Path
+  node<span class="token operator">:</span> Node
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">BaseRemoveNodeOperation</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'remove_node'</span>
+  path<span class="token operator">:</span> Path
+  node<span class="token operator">:</span> Node
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">BaseInsertTextOperation</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'insert_text'</span>
+  path<span class="token operator">:</span> Path
+  offset<span class="token operator">:</span> <span class="token builtin">number</span>
+  text<span class="token operator">:</span> <span class="token builtin">string</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">BaseRemoveTextOperation</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'remove_text'</span>
+  path<span class="token operator">:</span> Path
+  offset<span class="token operator">:</span> <span class="token builtin">number</span>
+  text<span class="token operator">:</span> <span class="token builtin">string</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">BaseMergeNodeOperation</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'merge_node'</span>
+  path<span class="token operator">:</span> Path
+  position<span class="token operator">:</span> <span class="token builtin">number</span>
+  properties<span class="token operator">:</span> Partial<span class="token operator">&lt;</span>Node<span class="token operator">&gt;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">BaseSplitNodeOperation</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'split_node'</span>
+  path<span class="token operator">:</span> Path
+  position<span class="token operator">:</span> <span class="token builtin">number</span>
+  properties<span class="token operator">:</span> Partial<span class="token operator">&lt;</span>Node<span class="token operator">&gt;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">BaseMoveNodeOperation</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'move_node'</span>
+  path<span class="token operator">:</span> Path
+  newPath<span class="token operator">:</span> Path
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">BaseSetNodeOperation</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'set_node'</span>
+  path<span class="token operator">:</span> Path
+  properties<span class="token operator">:</span> Partial<span class="token operator">&lt;</span>Node<span class="token operator">&gt;</span>
+  newProperties<span class="token operator">:</span> Partial<span class="token operator">&lt;</span>Node<span class="token operator">&gt;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">BaseSetSelectionOperation</span> <span class="token operator">=</span>
+  <span class="token operator">|</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> <span class="token string">'set_selection'</span>
+      properties<span class="token operator">:</span> <span class="token keyword">null</span>
+      newProperties<span class="token operator">:</span> Range
+    <span class="token punctuation">}</span>
+  <span class="token operator">|</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> <span class="token string">'set_selection'</span>
+      properties<span class="token operator">:</span> Partial<span class="token operator">&lt;</span>Range<span class="token operator">&gt;</span>
+      newProperties<span class="token operator">:</span> Partial<span class="token operator">&lt;</span>Range<span class="token operator">&gt;</span>
+    <span class="token punctuation">}</span>
+  <span class="token operator">|</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> <span class="token string">'set_selection'</span>
+      properties<span class="token operator">:</span> Range
+      newProperties<span class="token operator">:</span> <span class="token keyword">null</span>
+    <span class="token punctuation">}</span>
+
+</code></pre></div><p>形成了对于步骤的记录，也就是能够做到 <code>undo</code> <code>redo</code> 的操作，另外在此基础上，为了减轻心智负担，slate 做了进一步封装，也就是 <strong>Transform</strong> 以及 <strong>Editor</strong>。</p> <p><strong>Transform</strong> 能够内部消化对于 <code>Range</code> 的处理。</p> <p>更高级的，还有 <code>Commands</code>。也就是 <strong>Editor</strong>，上面所谓的“减轻心智负担”，也就是说一般情况下，我们在调用 <strong>Editor</strong> 时是不需要再传递路径等的。也可以理解为是对 Transform 的封装。</p> <p>举个例子 <strong>Operations</strong> 中的 <code>insert_text</code> 和 <code>insert_node</code>，<strong>Transform</strong> 会将其封装成 <code>insertText</code> 和 <code>insertNodes</code> 方法，其都接收包括 <code>at</code> 在内的多个 <code>options</code>。</p> <p>而 <strong>Editor</strong> 中的 <code>insertText</code> 方法，则包含了 <strong>Transform</strong> 中的这两个方法，我们无需再外部判断当前是否是一个 marks 而决定使用 <code>Transforms.insertText</code> 还是 <code>Transforms.insertNodes</code>，也不用传递 <code>at</code> 等参数。在某些命令式的情况下使用很方便。</p> <p>上面提到了 <strong>Range</strong>，所谓 <strong>Range</strong> 是 slate 对路径的管理。</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">interface</span> <span class="token class-name">Range</span> <span class="token punctuation">{</span>
+  anchor<span class="token operator">:</span> Point
+  focus<span class="token operator">:</span> Point
+<span class="token punctuation">}</span>
+</code></pre></div><p>如上所示，这便是 <strong>Range</strong> 的定义，anchor 是初始点，focus 为结束点。通俗来说就是比如框选了一段文字，mousedown 的位置即为 anchor，mouseout 的位置即为 focus。一般 focus 而没有选中一段文字的状态下 anchor 和 focus 是同一个 <strong>Point</strong>。</p> <p>那么这个 <strong>Point</strong> 又是何物呢</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token keyword">interface</span> <span class="token class-name">Point</span> <span class="token punctuation">{</span>
+  path<span class="token operator">:</span> Path
+  offset<span class="token operator">:</span> <span class="token builtin">number</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> <span class="token class-name">Path</span> <span class="token operator">=</span> <span class="token builtin">number</span><span class="token punctuation">[</span><span class="token punctuation">]</span>
+</code></pre></div><p>这是形容光标的具体位置，举个例子，上面图片中若光标在“测”与“试”中间，此时的 <strong>Point</strong> 即为</p> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token punctuation">{</span>
+    <span class="token string">&quot;path&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;offset&quot;</span><span class="token operator">:</span> <span class="token number">1</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main> <div class="theme-footer"></div></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.558b3da6.js" defer></script><script src="/assets/js/3.aaf40548.js" defer></script><script src="/assets/js/2.8639da39.js" defer></script><script src="/assets/js/13.2d101e06.js" defer></script>
+  </body>
+</html>
