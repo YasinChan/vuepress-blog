@@ -5,6 +5,11 @@ module.exports = {
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
     ["script", { src: "/iconfont.js" }],
+    [
+      "script",
+      {},
+      'var _hmt = _hmt || [];\n(function() {\n  var hm = document.createElement("script");\n  hm.src = "https://hm.baidu.com/hm.js?7a4553a66f119e8706760cec79cafbbf";\n  var s = document.getElementsByTagName("script")[0]; \n  s.parentNode.insertBefore(hm, s);\n})();',
+    ],
   ],
   cache: false,
   markdown: {
