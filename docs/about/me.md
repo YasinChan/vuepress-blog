@@ -1,6 +1,6 @@
 ## 我
 - 2017.7 毕业并开始从事前端开发工作
-- 目前就职于[TapTap](https://taptap.com)。
+- 目前就职于[TapTap](https://taptap.cn)。
 
 ## 技术栈
 - `HTML`、`CSS`、`JavaScript`
@@ -9,6 +9,8 @@
 ## 好玩
 - [Quick Meet](https://github.com/YasinChan/quick-meet)  
 一个可以快速找到聚会地点的网站！
+- [Typing](https://github.com/YasinChan/typing)  
+打字网站！
 
 ## 轮子
 - [wechat-scroll-linkage](https://github.com/YasinChan/wechat-scroll-linkage)  

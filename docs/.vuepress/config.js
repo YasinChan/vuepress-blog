@@ -68,7 +68,11 @@ module.exports = {
         items: [
           {
             text: "Quick Meet",
-            link: "https://yasinchan.com/quick-meet/",
+            link: "https://qm.yasinchan.com",
+          },
+          {
+            text: "Typing",
+            link: "https://typing.yasinchan.com",
           },
         ],
       },
