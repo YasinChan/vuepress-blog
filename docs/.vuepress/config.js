@@ -10,6 +10,18 @@ module.exports = {
       {},
       'var _hmt = _hmt || [];\n(function() {\n  var hm = document.createElement("script");\n  hm.src = "https://hm.baidu.com/hm.js?7a4553a66f119e8706760cec79cafbbf";\n  var s = document.getElementsByTagName("script")[0]; \n  s.parentNode.insertBefore(hm, s);\n})();',
     ],
+    [
+      "script",
+      {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-8C7G0NW5CR",
+      },
+    ],
+    [
+      "script",
+      {},
+      " window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-8C7G0NW5CR');",
+    ],
   ],
   cache: false,
   markdown: {
