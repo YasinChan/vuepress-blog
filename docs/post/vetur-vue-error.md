@@ -1,6 +1,5 @@
 ---
 title: vue3 在 vscode 中引用报错的问题
-description: 本文将根据 slate 文档结合实例整理讲述 slate 的部分细节。
 created: 2023/07/11
 tags: 
   - vue3
